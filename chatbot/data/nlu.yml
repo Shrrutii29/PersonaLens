@@ -1,0 +1,129 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ask_wellbeing
+  examples: |
+    - I feel anxious
+    - I’m stressed out
+    - How to manage anxiety?
+    - What should I do when I’m nervous?
+    - Dealing with exam stress is hard
+    - Tips for handling pressure during exams
+    - I can’t sleep properly
+    - I wake up at night and can’t relax
+    - Give me ways to fall asleep faster
+    - Share some meditation tips
+    - Suggest breathing exercises for calmness
+    - Foods that reduce stress
+    - What diet is good for the brain?
+    - How do I stay positive in life?
+    - I want to think more positively
+    - How do I stay calm before an interview?
+    - I feel depressed
+    - Feeling low and sad, what should I do?
+    - I’m not motivated these days
+    - How do I focus better on my studies?
+    - Share mindfulness techniques
+    - How to stop overthinking?
+    - I lose my temper quickly, any advice?
+    - Anger management tips
+    - How do I balance work and personal life?
+    - What are the best ways to relax after work?
+    - How to build confidence in myself?
+    - I feel lonely, what can help?
+    - Any tips to boost my mood?
+    - How do I avoid negative thoughts?
+    - What can I do to stay motivated?
+    - How to improve concentration while studying?
+
+
+
